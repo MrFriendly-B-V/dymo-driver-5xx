@@ -1,0 +1,10 @@
+services:
+  driver-builder:
+    build: {}
+    volumes:
+    - './out:/output:rw'
+    # entrypoint: "/bin/bash"
+    # tty: true
+    # stdin_open: true
+    # entrypoint: "cp /opt/dymodriver/LW5xx_Linux/*.deb /output"
+    entrypoint: 'cp /opt/dymodriver/LW5xx_Linux/lw5xx-linux_1.0-1_amd64.deb /output/'
