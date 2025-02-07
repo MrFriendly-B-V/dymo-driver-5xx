@@ -15,3 +15,7 @@ This will produce a `.deb` file which you can install with
 ```
 sudo apt install ./out/*.deb
 ```
+
+## License
+
+MIT or Apache-2.0, at your option
