@@ -9,11 +9,11 @@ Docker container for building the Dymo LabelWriter 5xx driver.
 
 ## Usage
 ```
-make
+make install
 ```
-This will produce a `.deb` file which you can install with
+or
 ```
-sudo apt install ./out/*.deb
+make build
 ```
 
 ## License
