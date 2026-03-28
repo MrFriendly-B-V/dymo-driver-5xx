@@ -5,7 +5,7 @@ all: help
 help:
 	echo "- build 		Build driver"
 	echo "- install		Build and install driver"
-	echo "- help			Show this page"
+	echo "- help		Show this page"
 
 .PHONY: build
 build:
@@ -17,3 +17,4 @@ build:
 .PHONY: install
 install: build
 	sudo apt install $$(pwd)/out/*.deb
+	sudo systemctl restart cups
