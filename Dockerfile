@@ -1,4 +1,5 @@
-FROM ubuntu:latest
+# 26.04
+FROM ubuntu:resolute
 
 RUN mkdir /opt/dymodriver
 WORKDIR /opt/dymodriver
