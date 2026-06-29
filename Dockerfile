@@ -18,7 +18,8 @@ RUN apt install -y -qq \
     autoconf \
     automake \
     checkinstall \
-    autotools-dev
+    autotools-dev \
+    bsdextrautils
 
 WORKDIR /opt/dymodriver/LW5xx_Linux
 
